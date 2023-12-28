@@ -1,96 +1,93 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StandUpForUkraine Token Official Web Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #444;
-            color: #fff;
-            padding: 0.5em;
-            text-align: center;
-        }
-
-        section {
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <meta name="description" content="{{ site.description }}">
+    <!-- Dodaj inne metatagi lub style w zależności od potrzeb -->
 </head>
 <body>
-
     <header>
         <h1>StandUpForUkraine Token Official Web Page</h1>
+        <p>{{ site.description }}</p>
     </header>
 
-    <nav>
-        <a href="#section1">Section 1</a> |
-        <a href="#section2">Section 2</a> |
-        <a href="#section3">Section 3</a>
-    </nav>
-
-    <section id="section1">
-        <h2>Section 1</h2>
-        <p>Welcome on our web page! </p>
-        <p> Greetings, citizens of the world. We are Anonymous Creators.</p>
-        <p>We are The Anonymous Creators.</p>
-        <p> We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us. </p>
-        <p>  What is The Anonymous Creators? </p>
-        <p> New part of The Anonymous which is focused on making projects 
-            and products that are helping voiceless in the world rather than hacking bad people (what we support too). 
-            Organization is non-profit, established on 24th of November 2023.</p>
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>welcome to our web page! We are the Anonymous Creators, part of The Anonymous that createts, not hacks</p>
     </section>
 
-    <section id="section2">
-        <h2>Section 2</h2>
-        <p>Here is our first product. We hope there will be more of them.</p>
-        <p> We are trying to make a crypto currency that will provide a constant support for Ukraine by giving them 10% of all mined coins,
+    <section id="experience">
+        <h2>Our ideas</h2>
+        <ul>
+            <li>
+                <h3>First idea</h3>
+                <h3>StandUpForUkraineToken </h3>
+                <p><strong>Dec'23/Jan'24</strong></p>
+                <p>Here is our first product. We hope there will be more of them.</p>
+                <p> We are trying to make a crypto currency that will provide a constant support for Ukraine by giving them 10% of all mined coins,
             enables instant, private payments to anyone, anywhere in the world. UkraineCoin uses peer-to-peer technology to operate with no central authority: 
             managing transactions and issuing money are carried out collectively by the network. UkraineCoin Core is the name 
             of the open source software which enables the use of this currency. No matter from which part of world you are from, above the borders. 
             We are trying to establish contact with Ukrainian Gouvernment.</p>
+            </li>
+            <!-- Dodaj więcej elementów listy dla innych miejsc pracy -->
+        </ul>
     </section>
 
-    <section id="section3">
-        <h2>Secton 3</h2>
-        <p> <button onclick="downloadFiles()">Download Files</button>
-<script>
-  function downloadFles() {
-    window.location.href = 'HERE_PASTE_LINK';
-  }
-</script>
-</p>
-        <p> NOTE!</p>
-        <p> Currently there is nothing to be downloaded because we did not make the UkraineCoin yet.</p>
+    <section id="education">
+        <h2>What is The Anonymous Creators?</h2>
+        <ul>
+            <li>
+                    <p> Greetings, citizens of the world. We are Anonymous Creators.</p>
+        <p>We are The Anonymous Creators.</p>
+        <p> We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us. </p>  
+                <p> New part of The Anonymous which is focused on making projects 
+            and products that are helping voiceless in the world rather than hacking bad people (what we support too). 
+            Organization is non-profit, established on 24th of November 2023.</p>
+                      <p> New part of The Anonymous which is focused on making projects 
+            and products that are helping voiceless in the world rather than hacking bad people (what we support too). 
+            Organization is non-profit, established on 24th of November 2023.</p>
+              
+
+            
+            </li>
+            <!-- Dodaj więcej elementów listy dla innych miejsc edukacji -->
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Links</h2>
+        <ul>
+            <li>X (Twitter): </li>
+            <li>Facebook: </li>
+            <li>Instagram: </li>
+            <li> Discord:  </li>
+            <li>Git/GitHub: </li>
+            <!-- Dodaj więcej elementów listy dla innych umiejętności -->
+        </ul>
     </section>
 
     <footer>
-        &copy; 2023 Our Web Page
+        <p>Copyright © {{ site.title }} {{ site.time | date: "%Y" }}</p>
     </footer>
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+    
+
+
+   
+
